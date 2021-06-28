@@ -39,7 +39,6 @@ export default function splash({navigation}) {
     <View
       style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor:'white'}}
       onLayout={onLayoutRootView}>
-      <Text>Loading..</Text>
       <View style={{alignSelf:'center'}}>
       <Image source={require('./images/icon.png')}></Image>
       </View>
