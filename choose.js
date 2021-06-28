@@ -35,7 +35,6 @@ export default function choose({ navigation }) {
     <ScrollView>
       <View style={styles.container}>
         <TouchableOpacity
-          elevation={5}
           style={styles.buttonContainer}
           onPress={() => navigation.navigate("spaceview")}
         >
@@ -46,7 +45,6 @@ export default function choose({ navigation }) {
           <Text style={styles.label}>Space & tech</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          elevation={5}
           style={styles.buttonContainer}
           onPress={() => navigation.navigate("politicsview")}
         >
@@ -58,7 +56,6 @@ export default function choose({ navigation }) {
         </TouchableOpacity>
 
         <TouchableOpacity
-          elevation={5}
           style={styles.buttonContainer}
           onPress={() => navigation.navigate("computerview")}
         >
@@ -70,7 +67,6 @@ export default function choose({ navigation }) {
         </TouchableOpacity>
 
         <TouchableOpacity
-          elevation={5}
           style={styles.buttonContainer}
           onPress={() => navigation.navigate("gamingview")}
         >
@@ -82,7 +78,6 @@ export default function choose({ navigation }) {
         </TouchableOpacity>
 
         <TouchableOpacity
-          elevation={5}
           style={styles.buttonContainer}
           onPress={() => navigation.navigate("businessview")}
         >
@@ -94,7 +89,6 @@ export default function choose({ navigation }) {
         </TouchableOpacity>
 
         <TouchableOpacity
-          elevation={5}
           style={styles.buttonContainer}
           onPress={() => navigation.navigate("scienceview")}
         >
@@ -106,7 +100,6 @@ export default function choose({ navigation }) {
         </TouchableOpacity>
 
         <TouchableOpacity
-          elevation={5}
           style={styles.buttonContainer}
           onPress={() => navigation.navigate("sportsview")}
         >
@@ -118,7 +111,6 @@ export default function choose({ navigation }) {
         </TouchableOpacity>
 
         <TouchableOpacity
-          elevation={5}
           style={styles.buttonContainer}
           onPress={() => navigation.navigate("booksview")}
         >
