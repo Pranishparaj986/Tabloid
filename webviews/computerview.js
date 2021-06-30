@@ -5,7 +5,7 @@ export default function computerview(){
     return (
       <WebView
         originWhitelist={['*']}
-        source={{uri:'https://www.cnet.com/news/'}}
+        source={{uri:"https://gadgets.ndtv.com/news"}}
         style={{ marginTop: 20 }}
       />
     );
