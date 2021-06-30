@@ -42,7 +42,7 @@ export default function choose({ navigation }) {
             source={require("./images/space.png")}
             style={([StyleSheet.absoluteFill], { alignSelf: "center" })}
           />
-          <Text style={styles.label}>Space & tech</Text>
+          <Text style={styles.label}>Space Tech</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.buttonContainer}
