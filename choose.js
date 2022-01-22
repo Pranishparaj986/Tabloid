@@ -13,7 +13,7 @@ import {
 export default function choose({ navigation }) {
   useEffect(() => {
     const backAction = () => {
-      Alert.alert("Hold on!", "Are you sure you want exit the app?", [
+      Alert.alert("Hold on!", "Are you sure you want to exit the app?", [
         {
           text: "Cancel",
           onPress: () => null,
@@ -42,7 +42,7 @@ export default function choose({ navigation }) {
             source={require("./images/space.png")}
             style={([StyleSheet.absoluteFill], { alignSelf: "center" })}
           />
-          <Text style={styles.label}>Space Tech</Text>
+          <Text style={styles.label}>SPACE</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.buttonContainer}
@@ -52,7 +52,7 @@ export default function choose({ navigation }) {
             source={require("./images/politics.png")}
             style={([StyleSheet.absoluteFill], { alignSelf: "center" })}
           />
-          <Text style={styles.label}>Politics</Text>
+          <Text style={styles.label}>POLITICS</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -63,7 +63,7 @@ export default function choose({ navigation }) {
             source={require("./images/computer.png")}
             style={([StyleSheet.absoluteFill], { alignSelf: "center" })}
           />
-          <Text style={styles.label}>Tech</Text>
+          <Text style={styles.label}>TECH</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -74,7 +74,7 @@ export default function choose({ navigation }) {
             source={require("./images/gaming.png")}
             style={([StyleSheet.absoluteFill], { alignSelf: "center" })}
           />
-          <Text style={styles.label}>Gaming</Text>
+          <Text style={styles.label}>GAMING</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -85,7 +85,7 @@ export default function choose({ navigation }) {
             source={require("./images/business.png")}
             style={([StyleSheet.absoluteFill], { alignSelf: "center" })}
           />
-          <Text style={styles.label}>Business</Text>
+          <Text style={styles.label}>BUSINESS</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -96,7 +96,7 @@ export default function choose({ navigation }) {
             source={require("./images/science.png")}
             style={([StyleSheet.absoluteFill], { alignSelf: "center" })}
           />
-          <Text style={styles.label}>Science</Text>
+          <Text style={styles.label}>SCIENCE</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -107,7 +107,7 @@ export default function choose({ navigation }) {
             source={require("./images/sports.png")}
             style={([StyleSheet.absoluteFill], { alignSelf: "center" })}
           />
-          <Text style={styles.label}>Sports</Text>
+          <Text style={styles.label}>SPORTS</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -118,7 +118,7 @@ export default function choose({ navigation }) {
             source={require("./images/books.png")}
             style={([StyleSheet.absoluteFill], { alignSelf: "center" })}
           />
-          <Text style={styles.label}>Books & Literature</Text>
+          <Text style={styles.label}>BOOKS</Text>
         </TouchableOpacity>
       </View>
     </ScrollView>
@@ -129,25 +129,26 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "column",
     flex: 1,
-    justifyContent: "space-evenly",
+    justifyContent:"space-evenly",
     backgroundColor: "white",
   },
   buttonContainer: {
+  alignSelf:"center",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "space-evenly",
     borderWidth: 2,
-    borderColor: "skyblue",
-    height: "10%",
-    width: "25%",
-    backgroundColor: "pink",
+    borderColor: "gold",
+    height: "9%",
+    width: "80%",
+    backgroundColor: "white",
     marginTop: 40,
-    marginLeft: 40,
+    
   },
   label: {
-    fontSize: 10,
-    alignSelf: "center",
-    marginTop: 14,
-    marginHorizontal: 25,
+    fontSize: 9,
+    //alignSelf: "center",
+   // marginTop: 14,
+  marginHorizontal: 10,
     color: "black",
     fontWeight: "bold",
   },

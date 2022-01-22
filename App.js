@@ -1,9 +1,9 @@
 import "react-native-gesture-handler";
-import React from "react";
+import React, { useState } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import choose from "./choose";
 import splash from "./splash";
+import choose from "./choose";
 import spaceview from "./webviews/spaceview";
 import scienceview from "./webviews/scienceview";
 import gamingview from "./webviews/gamingview";
@@ -14,7 +14,6 @@ import politicsview from "./webviews/politicsview";
 import computerview from "./webviews/computerview";
 
 const Stack = createStackNavigator();
-
 function App() {
   return (
     <NavigationContainer>
@@ -33,7 +32,7 @@ function App() {
           name="spaceview"
           component={spaceview}
           options={{
-            title: "SPACE TECHNOLOGY",
+            title: "OUTER SPACE",
             headerStyle: {
               borderBottomWidth: 0,
               backgroundColor: "#3AA2CB",
