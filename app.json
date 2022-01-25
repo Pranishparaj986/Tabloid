@@ -3,7 +3,7 @@
     "name": "Tabloid",
     "slug": "Tabloid",
     "privacy":"public",
-    "description":"Reading news article is a lot better now!You don't have to have interests in everything. Choose what your interest is and see daily updates about the topic.",
+    "description":"Be informed about what you like",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./images/icon.png",
